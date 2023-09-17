@@ -5,16 +5,28 @@
 }
 
 
-
-body {
+.cuerpo {
     background-image: url('/img/portadaWeb/background_2web.jpg');
     background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%;
-   overflow: scroll;
-   
-   
-   
-   
+    width: 100%;
+    /* height: 100vh; */
+    background-size: cover;
     
 }
+
+
+.sombraTxt {
+
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.466),  0 0 25px rgba(137, 43, 226, 0.342), 0 0 5px rgba(137, 43, 226, 0.678);
+
+}
+
+.shadowTxt {
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.459),  0 0 25px #7272723a, 0 0 5px rgba(137, 43, 226, 0.63);
+
+}
+
+
+
+
